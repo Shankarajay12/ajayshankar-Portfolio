@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Rubik&display=swap');
+
 
   body {
     font-family: 'Rubik', sans-serif;
+    background: #d2bea5;
   }
 
   .navbar{
@@ -32,14 +35,21 @@
   border-radius: 30px;
   padding: 10px 20px;
   }
-  
+
+ 
+  section h2{
+    font-family: 'Monoton', cursive;
+    font-size: 3em;
+    color: #744e3a;
+  }
 
 h4{
   color: #64748b;
 }
 
 div ul li{
-  color: #374151;
+  text-decoration: none;
+  color: #191e1f;
 }
 
   section {
@@ -52,7 +62,6 @@ div ul li{
   }
   
   section div {
-    background: #fff;
     margin-bottom: 60px;
     display: flex;
     font-size: 20px;

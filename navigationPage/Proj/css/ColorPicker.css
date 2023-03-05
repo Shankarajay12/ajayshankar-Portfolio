@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Rubik&display=swap');
 
   body {
     font-family: 'Rubik', sans-serif;
+    background: #FFA351FF;
   }
 
   .navbar{
@@ -9,6 +11,10 @@
     justify-content: space-between;
     padding: 1%;
     
+  }
+  section h2{
+    font-family: 'Monoton', cursive;
+    font-size: 3em;
   }
   
   .logo{
@@ -22,7 +28,7 @@
   
   .navbar ul li a{
   text-decoration: none;
-  color: #000;
+  color: #191e1f;
   }
   
   .navbar ul li a:hover{
@@ -39,7 +45,7 @@ h4{
 }
 
 div ul li{
-  color: #374151;
+  color: #191e1f;
 }
 
   section {
@@ -52,8 +58,6 @@ div ul li{
   }
   
   section div {
-   
-    background: #fff;
     margin-bottom: 60px;
     display: flex;
     font-size: 20px;

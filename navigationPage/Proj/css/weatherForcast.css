@@ -35,7 +35,25 @@
   border-radius: 30px;
   padding: 10px 20px;
   }
-
+  
+  #live{
+    width: 100px;
+    height: 50px;
+    margin: 40px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background: #744e3a;
+    cursor: pointer;
+    }
+    #live a{
+      color: #d2bea5;
+      text-decoration: none;
+      font-size: large;
+    }
+    #live:hover{
+      transform: scale(1.2);
+    }
  
   section h2{
     font-family: 'Monoton', cursive;
